@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  pipeline-engine:
+    build: .
+    container_name: pipeline-engine
+    restart: unless-stopped
+    environment:
+      - GO_ENV=production

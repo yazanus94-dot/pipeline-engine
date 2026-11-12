@@ -1,0 +1,12 @@
+.git
+.gitignore
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+*.md
+__pycache__
+*.pyc
+.venv
+node_modules
+*.log
+*.tmp
